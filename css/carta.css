@@ -22,3 +22,9 @@ body{
     background-color: black;
 }
 
+footer {
+    padding-top: 1rem;
+    bottom: 0;
+    left: 0;
+}
+
