@@ -15,36 +15,125 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/carta.css">
 
 </head>
 <body>
     
-    <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">LOGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./carta.html">CARTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
+    <!-- NAVBAR TOP -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="./img/logo.png" alt="Logo" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fs-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="./carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!-- FIN NABVAR TOP -->
 
-      <div class="titulo"><p class="carta text-center">Estas en la carta</p></div>
+    <!-- IMAGEN MENU TOP -->
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12 text-center img-top">
+            <div class="d-flex align-items-center justify-content-center text-menu">
+              <h1>CARTA</h1>
+            </div>
+          </div>
+      </div>
+      <!-- FIN IMAGEN MENU TOP -->
+
+      <!-- CARTAS HAMBURGUESAS -->
+      <div class="row pt-4 row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100 text-bg-secondary border-dark">
+              <img src="./img/kevinbacon.jpg" class="card-img-top" alt="hamburguesa1">
+              <div class="card-body">
+                <h5 class="card-title">Kevin Bacon</h5>
+                <p class="card-text">El auténtico best seller de esta casa. ¿Sabes cómo se hace una Kevin? Fácil pero increíblemente rico: Picamos la carne directamente en la plancha y la mezclamos con trozos de bacon, cebolla crunchy y queso americano. ¡Una vez que la pruebas no puedes dejar de pensar en ella! Te recomendamos que le añadas queso de cabra o plátano dorado. ¡Es imposible no babear!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-bg-secondary border-dark">
+              <img src="./img/Kevin-Serrana.png" class="card-img-top" alt="hamburguesa2">
+              <div class="card-body">
+                <h5 class="card-title">Kevin Serrana</h5>
+                <p class="card-text">Carne picada en la plancha con pedacitos de jamón serrano crujiente, queso manchego y americano, patatas paja y huevo frito, acompañada de salsa Brava Goiko. Viene con patatas bañadas en salsa Alioli Goiko.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-bg-secondary border-dark">
+              <img src="./img/greta.png" class="card-img-top" alt="hamburguesa3">
+              <div class="card-body">
+                <h5 class="card-title">Greta</h5>
+                <p class="card-text">Beyond Meat, loncha vegana, guacamole casero, fresco y rústico, tomate seco confitado, lechuga batavia y pan de cereales vegetariano.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-bg-secondary border-dark">
+              <img src="./img/bomba-sexy.jpg" class="card-img-top" alt="hamburguesa4">
+              <div class="card-body">
+                <h5 class="card-title">Bomba-sexy</h5>
+                <p class="card-text">Es una realidad: no hay burger ni más sexy ni más bomba. Queso Monterey Jack empanado, setas fritas, bacon, salsa Mayo ahumada y lechuga batavia. Los más burgerlovers le añaden pepinillos o cebolla natural, ¿te atreves?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card h-100 text-bg-secondary border-dark">
+                <img src="./img/chipotle.jpg" class="card-img-top" alt="hamburguesa5">
+                <div class="card-body">
+                  <h5 class="card-title">Chipotle</h5>
+                  <p class="card-text">Si amas el guacamole, deja de buscar, esta es tu burger. Guacamole casero, fresco y rústico, acompañado con salsa Chipotle. Si quieres darle un toque distinto, te recomendamos añadirle queso americano o bacon. ¡ÑAAAAM!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-bg-secondary border-dark">
+                <img src="./img/kiki.jpg" class="card-img-top" alt="hamburguesa6">
+                <div class="card-body">
+                  <h5 class="card-title">Kiki</h5>
+                  <p class="card-text">Pollo crujiente, queso americano, bacon, lechuga iceberg y Salsa 50 de Goiko.
+                    Dale un toque especial añadiéndole pepinillos o huevo frito… ¡Otro rollo!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-bg-secondary border-dark">
+                <img src="./img/m-30.jpg" class="card-img-top" alt="hamburguesa7">
+                <div class="card-body">
+                  <h5 class="card-title">M-30</h5>
+                  <p class="card-text">Solo con dos ingredientes, queso de cabra al grill y cebolla caramelizada, se te hará la boca agua. Llévala al siguiente nivel añadiendo bacon o champiñones a la plancha.</p>
+                </div>
+              </div>
+            </div><div class="col">
+              <div class="card h-100 text-bg-secondary border-dark">
+                <img src="./img/yankee.jpg" class="card-img-top" alt="hamburguesa8">
+                <div class="card-body">
+                  <h5 class="card-title">Yankee</h5>
+                  <p class="card-text">Para los que le gusta poner toooda la carne en el asador. Carne de vaca, costilla de cerdo en salsa Barbacoa Goiko, queso americano, cebolla al grill y lechuga batavia. Si te atreves a añadirle algo más, te recomendamos que la pruebes con cebolla crunchy o champiñones a la plancha. ¡Simplemente brutal!</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- FIN CARTAS HAMBURGUESAS -->
 
     <!-- Boostrap body -->
 
